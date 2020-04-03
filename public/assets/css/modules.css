@@ -1,5 +1,5 @@
 @media screen and (min-width: 961px) and (max-width: 1880px) {
-
+  
   .container {
     width: 1200px;
   }
@@ -1632,7 +1632,7 @@ display: block;
 border: 0;
 outline: 0;
 background: #fff;
-background: #3a6683;
+background: #7a7a7a;
 width: 100%;
 border-radius: 0.35em;
 padding: 0.75em 1em 0.75em 1em;
@@ -1728,7 +1728,7 @@ border-radius: 0.35em;
 color: #fff !important;
 text-decoration: none;
 padding: 0.75em 2.5em 0.75em 2.5em;
-background-color: #fff12d;
+background-color: #3a3a39;
 border: 0;
 cursor: pointer;
 background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1765,7 +1765,7 @@ margin-bottom: 40px;
 }
 
 .item header {
-  background: rgb(252, 255, 74);
+  background:  #3a3a39;
   margin: 0;
   padding: 1em 0 1em 0;
   font-size: 0.8em;
@@ -1812,7 +1812,7 @@ flex-direction: column;
 -webkit-justify-content: space-between;
 -ms-justify-content: space-between;
 justify-content: space-between;
-background: #3a6683 url("images/overlay.png");
+background: #515152 url("images/overlay.png");
 box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 color: #fff;
 height: 100%;
@@ -2013,8 +2013,11 @@ margin-left: 375px;
   }
 
   #main > section.one {
-    background-color: rgb(0, 255, 208);
-    background-image: url("../../images/banner.jpg");
+    background-color: rgb(0, 0, 0);
+    background-image: rgb(0, 0, 0);
+    /* background-image: url("../../images/banner.jpg"); */
+    
+  }
   }
 
   #main > section.two {
